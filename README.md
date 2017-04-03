@@ -1,28 +1,21 @@
-## Spark Streaming
+# Spark Streaming
 
 Thi is my hello world using Spark Streaming!!
 
 
 ![Alt text](imgs/img0.png "Chart")
 
-#Kafka
+##Kafka
 
 Please find some utility scripts inside the scripts folder.
 
-#Producer:
+##Producer:
 
-launch:
+launch: com.example.Producer
 
-<code>
-com.example.Producer
-</code>
+##Consumer
 
-#Consumer
-
-<code>
-com.example.Consumer
-</code>
-
+launch: com.example.Consumer
 
 If everything goes right, the average value of the signal should be 0.
 
